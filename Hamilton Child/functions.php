@@ -275,8 +275,8 @@ function users_location($autd)
         $city = get_the_author_meta('city', $autd);
         $country = get_the_author_meta('contry', $autd);
         $link =  'https://www.google.com/maps/dir//' . $adress . ',' . $city . ',' . $country . '/';
-        echo '<p><a href="' . $link . '" target="blank"><img src="https://maps.googleapis.com/maps/api/staticmap?scale=2&size=600x300&maptype=roadmap&key=AIzaSyDJ_vmLXKOeWVepRyp9SKH_I-3oR2hEcFg&format=jpg&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C' . $adress . ',' . $city . ',' . $country . '"></a></p>
-       <p><a href="' . $link . '" target="blank"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path d="M4 15.189v-15.189h4v9.629c-1.635 1.57-2.993 3.458-4 5.56zm8.709-9.689l1.041 2.625c-5.875 2.563-9.75 9-9.75 15.875h4c0-5.219 3.438-10.75 7.333-12l1.084 2.625 3.583-6.781-7.291-2.344z"/></svg><strong> Visit -  </strong>' . $adress . ', ' . $city . ', ' . $country . '»</a></p> ';
+        echo '<p><a href="' . $link . '" target="blank"><img src="https://maps.googleapis.com/maps/api/staticmap?scale=2&size=600x300&maptype=roadmap&key=&format=jpg&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7Clabel:%7C' . $adress . ',' . $city . ',' . $country . '"></a></p>
+       <p><a href="' . $link . '" target="blank"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path d="M4 15.189v-15.189h4v9.629c-1.635 1.57-2.993 3.458-yp9SKH_I-3oR2hEcF4 5.56zm8.709-9.689l1.041 2.625c-5.875 2.563-9.75 9-9.75 15.875h4c0-5.219 3.438-10.75 7.333-12l1.084 2.625 3.583-6.781-7.291-2.344z"/></svg><strong> Visit -  </strong>' . $adress . ', ' . $city . ', ' . $country . '»</a></p> ';
     }
 }
 ///////////AUTOR CONTENT///
